@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # @author Matthieu Schmit
 #
 # Recherche un nom, et indique

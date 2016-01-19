@@ -2,7 +2,12 @@
 
 # @author Matthieu - 18 janvier 16
 #
-# gitPush.sh
+# Raccourci pour git add/commit/push
+#
+# Utilisation :
+#	Ajouter au PATH le chemin absolu du script
+#	Créer un alias pour plus de confort
+
 
 echo "GitPush"
 echo

@@ -10,15 +10,26 @@
 # Utilisation :
 #   Ajouter au PATH le chemin absolu du dossier du script
 #   Créer un alias pour plus de confort
+#
+#
+#
+#
+#   !!!! LINUX USER !!!!
+# ligne 97 à supprimer. Ecrite pour Mac OSX
+#
+#
+#   !!!! MAC OSX USER !!!!
+# ligne 97 à supprimer (ou SublimeText2 à installer)
 
 
-# newScript = alias pour 'newScript.sh'
+# nFonction lancée lors des erreurs d'entrée
 FCT_Erreur () {
     echo "Error."
     echo " -h for help"
     exit 1
 }
 
+# Fonction appelée avec l'option -h
 FCT_Help () {
     echo "Name :"
     echo "  newScript.sh"
@@ -84,3 +95,6 @@ echo "# $nom" >> $nom
 
 # Ouvre le script créé avec SublimeText (mac OSX)
 open /Applications/Sublime\ Text\ 2.app/ $nom
+
+
+

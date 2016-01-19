@@ -1,9 +1,12 @@
 #!/bin/bash
-#
+
 # @author Matthieu Schmit - 12 janvier 2016
 #
 # Script cherchant un(e) mot(phrase) dans les fichier du dd
 #
+# Utilisation :
+#	Ajouter au PATH le chemin absolu du script
+#	Créer un alias pour plus de confort
 
 
 if [[ $(whoami) != "root" ]] ; then
