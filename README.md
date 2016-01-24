@@ -10,4 +10,4 @@ Pour un meilleur confort d'utilisation, ajoutez à votre PATH le dossier 'Script
 
 
 
-<a href="https://github.com/timchapelle/ARCADE.git">(Jeux Bash)</a>
+<a href="https://github.com/timchapelle/ARCADE.git">(Jeux Bash - c++)</a>
